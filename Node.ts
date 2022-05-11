@@ -1,8 +1,11 @@
 export class Node<T> {
-    data: T;
+    name: string;
+    score: number;
     next: Node<any>
-    constructor(data: T)  {
-        this.data = data
+    
+    constructor(name:string,score:number)  {
+        this.name = name;
+        this.score = score;
         this.next = null;
     }
 }

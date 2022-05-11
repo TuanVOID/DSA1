@@ -1,4 +1,4 @@
-import {ILinkedlist} from "./hoc";
+import {ILinkedlist} from "./ILinkedList";
 import {Node} from "./Node";
 
 export class LinkedList implements ILinkedlist {
@@ -37,14 +37,18 @@ export class LinkedList implements ILinkedlist {
 
     }
 
+    getData ( data: any) : any {
+
+    }
+
     deleteFirstNode(): void {
     }
 
     deleteLastNode(): void {
     }
 
-    size(): any {
-
+    size(): number {
+        return this.count;
     }
 
 }

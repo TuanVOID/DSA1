@@ -32,11 +32,14 @@ var LinkedList = /** @class */ (function () {
         }
         this.count++;
     };
+    LinkedList.prototype.getData = function (data) {
+    };
     LinkedList.prototype.deleteFirstNode = function () {
     };
     LinkedList.prototype.deleteLastNode = function () {
     };
     LinkedList.prototype.size = function () {
+        return this.count;
     };
     return LinkedList;
 }());

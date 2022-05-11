@@ -5,5 +5,7 @@ var linkedList = new LinkedList_1.LinkedList();
 linkedList.addFirstNode(10);
 linkedList.addFirstNode(5);
 linkedList.addFirstNode(4);
-console.log(linkedList.head);
+linkedList.addFirstNode("abc");
+linkedList.addFirstNode("xyz");
 console.log(linkedList);
+// console.log(linkedList.size())
